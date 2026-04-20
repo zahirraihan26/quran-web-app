@@ -3,12 +3,7 @@ import SurahDetailClient from './SurahDetailClient';
 
 const API_BASE = 'https://api.alquran.cloud/v1';
 
-export async function generateStaticParams() {
-  const surahs = await getAllSurahs();
-  return surahs.map((surah) => ({
-    id: surah.number.toString(),
-  }));
-}
+
 
 export default async function SurahPage({ params }) {
   const { id } = await params;
