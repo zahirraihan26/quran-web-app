@@ -15,8 +15,16 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "clsx": "^2.1.1",
+    "darkmode-js": "^1.5.7",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
-    "tailwindcss": "^4"
+    "lucide-react": "^1.8.0",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4",
+    "typescript": "^6.0.3"
   }
 }
